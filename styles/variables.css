@@ -1,4 +1,24 @@
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
+
+  Задайте для .page фоновое изображение. Путь до фоновой картинки так же можно вынести в переменную, которая будет переопределяться в зависимости от выбранной темы — светлой или тёмной.
 */
+
+
+/*занесла тень у ссылки в переменную, чтобы не прописывать её х, у */
+:root {
+  --section-gap: 50px;
+  --text-shadow-link: 2px 2px 0 var(--accent-color);
+
+  --bg-img: url(../images/cover-image-dark.png);
+  --accent-color: #FF0070;
+  --header-title-color:#DB00FF;
+  --bg-color:#000028;
+  --decoration-color:#FF0070;
+  --decoration-rgb-color: 255, 0, 112;
+  --subtitle-color:#FF0070;
+  --contrast-text-color:#000028;
+  --contrast-bg-color:#FF0070;
+  --text-color:#F1B2CE;
+}
