@@ -8,8 +8,11 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    inline-size: 375px;
     padding-inline: 10px;
+
+    /*TODO 21321312dsa*/
+    /*inline-size: 375px;*/
+    /*margin-inline: auto;*/
 }
 
 .header, main, .section {
