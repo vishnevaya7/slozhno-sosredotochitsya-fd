@@ -1,1 +1,1 @@
-https://github.com/vishnevaya7/slozhno-sosredotochitsya-fd/tree/main
+https://github.com/vishnevaya7/slozhno-sosredotochitsya-fd
