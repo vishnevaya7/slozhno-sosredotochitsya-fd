@@ -183,10 +183,6 @@ a:focus {
     font-weight: initial;
 }
 
-.main__section-picture-item {
-    margin-block-start: 10px;
-}
-
 .picture {
     display: block;
     inline-size: 100%;
@@ -256,9 +252,6 @@ a:focus {
     }
     .main__section-picture-item {
         margin-block-start: 0;
-    }
-
-    .main__section-picture-item {
         display: flex;
         align-items: center;
         justify-content: center;
