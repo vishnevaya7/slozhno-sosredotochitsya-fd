@@ -206,10 +206,13 @@ a:focus {
     .footer {
         padding-block: 20px;
     }
-    .header__title {
+     .title-visual {
         word-spacing: normal;
-        margin-inline-start: -20px;
+
         font-size:clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    }
+    .header__title {
+        margin-inline-start: -20px;
     }
     .page {
         padding-inline: 20px;
@@ -247,22 +250,22 @@ a:focus {
     .gallery__list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-auto-flow: row;
+        grid-template-rows: clamp(192px, min + (max - min) * ((100vw - 768px) / (1024 - 768)) ,260px) clamp(230px,min + (max - min) * ((100vw - 768px) / (1024 - 768)),315px) clamp(318px, min + (max - min) * ((100vw - 768px) / (1024 - 768)),433px);
         grid-gap: 20px;
+        margin-block-start: 20px;
+    }
+    .main__section-picture-item {
+        margin-block-start: 0;
     }
 
     .main__section-picture-item {
-        display: flex; /* Для центрирования изображения внутри */
-        align-items: center; /* Центрирует изображение по вертикали */
+        display: flex;
+        align-items: center;
         justify-content: center;
-        max-block-size:568px;
-        min-block-size: 192px;
     }
 
     .gallery__item.picture {
-        /*inline-size: 100%;*/
-        inline-size: 100%;
+        block-size: 100%;
         object-fit: cover;
     }
 
