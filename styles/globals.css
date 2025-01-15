@@ -5,7 +5,7 @@
 *::after {
   box-sizing: border-box;
   font-family: 'IBM Plex mono', monospace;
-  font-size: 18px;
+
   font-weight: 400;
   color: var(--text-color);
   line-height: 23.4px;
@@ -17,7 +17,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+body * {
+  font-size: 18px;
+}
 h1,
 h2,
 h3,
