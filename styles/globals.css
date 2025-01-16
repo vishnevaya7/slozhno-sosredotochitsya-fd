@@ -5,7 +5,6 @@
 *::after {
   box-sizing: border-box;
   font-family: 'IBM Plex mono', monospace;
-
   font-weight: 400;
   color: var(--text-color);
   line-height: 23.4px;
@@ -16,6 +15,7 @@ body {
   max-inline-size: 1440px;
   margin: 0 auto;
 }
+
 body * {
   font-size: 18px;
 }
