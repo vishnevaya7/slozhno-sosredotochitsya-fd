@@ -235,7 +235,7 @@ a:focus {
         gap: 20px;
     }
     .main__section-list .main__section-item:first-child .main__section-subtitle,
-    .main__section-subtitle-deep{
+    .main__section-subtitle-deep {
         margin-block-start: 0;
     }
     .section-how-article {
