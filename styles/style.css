@@ -228,7 +228,7 @@ a:focus {
     .main {
         gap:80px;
     }
-    .main > *:not(:last-child) {
+    .questions-answers-section {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: auto;
@@ -291,7 +291,8 @@ a:focus {
         min-inline-size: 491px;
         padding-top: 16px;
     }
-    .main > :nth-child(odd) {
+    .section-why,
+    .section-how {
         gap: 10px;
     }
     .main__section-list_what {
